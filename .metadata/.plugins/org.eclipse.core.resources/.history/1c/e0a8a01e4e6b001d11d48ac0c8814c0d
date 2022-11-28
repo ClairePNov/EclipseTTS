@@ -1,0 +1,20 @@
+package hwwk5;
+import java.util.*;
+
+public class hwwk5 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		// Your First Program
+				Scanner userInput = new Scanner(System.in);
+		        System.out.print("Please type your favorite color.");
+		        String favColor = userInput.nextLine ();
+		         System.out.println("You selected %s! That says a lot about you", favColor);
+		       
+		         System.out.print("Would you like to learn more?");
+		         String answer = userInput.nextLine ();
+		         
+		
+	}
+
+}

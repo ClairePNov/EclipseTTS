@@ -1,0 +1,21 @@
+package hwwk5;
+import java.io.Console;
+import java.util.*;
+
+public class hwwk5 {
+	      public static void main(String[] args){
+	    	          String[] my_array = {"Aaron","Joan","Layla"};
+	    	          Console console = System.console();
+
+	    	          console.printf(my_array[1]);
+	    	          // returns "Joan"
+	    	          int size = my_array.length;
+	    	          System.out.println(size);
+	    	            // returns the length or size of the array (3)
+	    	        }    
+
+	    	  }
+
+	          
+	      } 
+	}

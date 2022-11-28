@@ -1,0 +1,15 @@
+package hwwk5;
+
+public class hwwk5 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		// Your First Program
+
+		        System.out.print("Hello, World!\n"); 
+		         System.out.print("Today is awesome!");
+		         System.out.print("... don't you think?");
+		       
+	}
+
+}

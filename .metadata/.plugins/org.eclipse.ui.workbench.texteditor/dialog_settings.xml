@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item key="selection" value="&#x0A;&#x09;//public static void main(String[] args) {&#x0A;&#x09;Scanner input = new Scanner(System.in);&#x0A;&#x09;int ageLimit = 18;&#x0A;&#x09;&#x0A;&#x09;System.out.println(&quot;How old are you?&quot;);&#x0A;&#x09;&#x0A;&#x09;String ageString = input.nextLine();&#x0A;&#x09;int age = Integer.parseInt(ageString);&#x0A;&#x0A;&#x09;if(age &lt;= ageLimit) {&#x0A;&#x09;&#x09;System.out.println(&quot;Welcome&quot;);&#x0A;&#x09;} else {&#x0A;&#x09;&#x09;System.out.println(&quot;Sorry, have a nice day!&quot;);&#x0A;&#x09;&#x09;System.exit(0);&#x0A;&#x09;}&#x0A;}&#x0A;}"/>
+		<list key="findhistory">
+			<item value="&#x0A;&#x09;//public static void main(String[] args) {&#x0A;&#x09;Scanner input = new Scanner(System.in);&#x0A;&#x09;int ageLimit = 18;&#x0A;&#x09;&#x0A;&#x09;System.out.println(&quot;How old are you?&quot;);&#x0A;&#x09;&#x0A;&#x09;String ageString = input.nextLine();&#x0A;&#x09;int age = Integer.parseInt(ageString);&#x0A;&#x0A;&#x09;if(age &lt;= ageLimit) {&#x0A;&#x09;&#x09;System.out.println(&quot;Welcome&quot;);&#x0A;&#x09;} else {&#x0A;&#x09;&#x09;System.out.println(&quot;Sorry, have a nice day!&quot;);&#x0A;&#x09;&#x09;System.exit(0);&#x0A;&#x09;}&#x0A;}&#x0A;}"/>
+			<item value="&#x09;//public static void main(String[] args) {"/>
+		</list>
+	</section>
+</section>

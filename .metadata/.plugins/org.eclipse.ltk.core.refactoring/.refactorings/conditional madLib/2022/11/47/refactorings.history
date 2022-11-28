@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move element &apos;conditional.java&apos; to &apos;conditional.package-info.java&apos;&#x0A;- Original project: &apos;conditional madLib&apos;&#x0A;- Destination element: &apos;conditional.package-info.java&apos;&#x0A;- Original element: &apos;conditional.java&apos;&#x0A;- Update references to refactored element" description="Move compilation unit" destination="/src&lt;conditional{package-info.java" element1="/src&lt;{conditional.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1668703947439" units="1" version="1.0"/>
+</session>
