@@ -2,7 +2,10 @@ package arrayQ3;
 
 public class PowerQ {
 	
-static void main( int [] args) {
+static void main( int [size, power] args) {
+	
+	int newArr[] = 
+}
 
 	
 	/* prompt: Write a public static method called "toPower" that 

@@ -10,17 +10,16 @@ public class FindOutput {
 
         int index = 0;
 
-        for (int i = 1; i<exampleArray.length; i++){
-
-             if (exampleArray[ i ] > maximum) {
+        for (int i = 0; i<exampleArray.length; i++){
+        		index += exampleArray [i];
+            /* if (exampleArray[ i ] > maximum) {
 
                   maximum = exampleArray[ i ];
 
                   index = i;
 
-             }
+             }*/
 	}
-	}
-
-    System.out.println(index));
+        System.out.println(index);
+	} 
 }

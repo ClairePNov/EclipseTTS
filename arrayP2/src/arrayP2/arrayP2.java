@@ -22,8 +22,6 @@ public class arrayP2 {
 		    sum += i;
 			System.out.println(sum);
 		}
-
-		System.out.println(sum);
 	}
 
 }
