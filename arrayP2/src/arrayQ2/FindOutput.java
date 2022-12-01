@@ -3,7 +3,7 @@ package arrayQ2;
 public class FindOutput {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
         double[ ] exampleArray = {1,5,6,5,4,1};
 
         double maximum = exampleArray[0];
@@ -22,4 +22,5 @@ public class FindOutput {
 	}
 	}
 
+    System.out.println(index));
 }
