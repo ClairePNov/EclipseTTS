@@ -1,6 +1,6 @@
 package arrayP2;
 
-public class arrayP2 {
+public class ArrayQ1 {
 
 	public static void main(int[] args) {
 //		
