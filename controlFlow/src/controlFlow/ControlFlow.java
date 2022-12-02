@@ -120,35 +120,52 @@ public static void luckyNumbers() {
 	//fix lot1 if needed
 	if (lot1 > lmax) {
 		lot1 = lot1 - lmax;
-	} else { (lot1 < min) {
-		lot1 = lot1 + 50;
+	} else if (lot1 < min) {
+		lot1 = lot1 + Math.abs(-1);
 	} 
-	}
+	
 	//fix lot2if needed
-		if (lot2 > lmax) {
+	if (lot2 > lmax) {
 			lot2 = lot2 - lmax;
-		} else { (lot2 < min) {
-			lot1 = lot2 + 50;
-		} 
+	} else if (lot2 < min) {
+			lot2 = lot2 + Math.abs(-1);
+	} 
 	//fix lot4 if needed
 	if (lot4 > lmax) {
-		lot4 = lot4 - lmax;
+		lot4 = lot4 - lmax + Math.abs(-1);
 	}
-	} else { (lot4 < min) {
-			lot4 = lot4 + 50;
-	} 		}
-		//fix lot5 if needed
-		if (lot5 > lmax) {
-			lot5 = lot5 - lmax;
-		} else { (lot5 < min) {
-			lot5 = lot5 + 50;
-		} 
-		}
+	else if(min > lot4) {
+		lot4 = lot4 + 50;
+	}
 	
+	//fix lot5 if needed
+	if (lot5 > lmax) {
+		lot5 = lot5 - lmax + Math.abs(-1);
+	}
+	else if (lot5 < min) {
+		lot5 = lot5 + Math.abs(-1);
+	}
+	
+	
+	//give numbers to survey participant
 	System.out.println("Lottery numbers: " + lot1 + ", " + lot2 + ", " + lot2 + ", " + lot3 + ", " + lot4 + ", " +lot5 + " Magic ball: " + magicB);
+	doOver();
+			}
+public static void doOver () {
+	Scanner input = new Scanner(System.in);
+	System.out.println("Would you like to try for different numbers?");
+	String doAgain = input.nextLine();
+	
+	if (doAgain.equalsIgnoreCase("yes")) {
+		questions();
+	} else if (doAgain.equalsIgnoreCase("no")) {
+		System.out.println("Hope you find luck with the numbers, thanks for taking the survey.");
+		System.out.println("Goodbye");
+		
+
 	
 
 	}
-
 	
-}
+	}}
+
