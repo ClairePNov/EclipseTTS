@@ -65,20 +65,29 @@ public static void questions() {
 		String [] survey = { i0, i1, i2, i3, i4, i5, i6, i7};
 		
 		//loop for string responses
-		for (int i = 0; i < 3; i++) {
+			try {
+			for (int i = 0; i < 3; i++) {
 			System.out.println(survey[i]);
 			String a = input.next();
-			repo2.add(i, a);
+			repo2.add(i, a);}
+		}
+		 catch (Exception e) {
+		    System.out.println("Please begin the survey again and only enter valid responses.");
+		    questions();
 		}
 		
-		//loop for int responses
-		for (int i = 3; i < survey.length; i++) {
-			System.out.println(survey[i]);
-			int a = input.nextInt();
-			int ix = i -3;
-			repo1.add(ix, a);
-			
 		
+		//loop for int responses
+		try {
+			for (int i = 3; i < survey.length; i++) {
+				System.out.println(survey[i]);
+				int a = input.nextInt();
+				int ix = i -3;
+				repo1.add(ix, a);
+		    }
+		} catch (Exception e) {
+		    System.out.println("Please begin the survey again and only enter valid responses.");
+		    questions();
 		}
 		
 		System.out.println(repo1);
