@@ -68,7 +68,7 @@ public static void questions() {
 			try {
 			for (int i = 0; i < 3; i++) {
 			System.out.println(survey[i]);
-			String a = input.next();
+			String a = input.nextLine();
 			repo2.add(i, a);}
 		}
 		 catch (Exception e) {
